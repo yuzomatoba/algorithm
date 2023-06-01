@@ -21,7 +21,7 @@ def test_encrypt_message():
     # Testando key e message incorretos:
     try:
         encrypted_message(231, 'Hey')
-    except Exception as ex:
+    except TypeError as ex:
         assert type(ex).__name__ == 'TypeError'
 
     # Testando que key não é um índice válido de message:
