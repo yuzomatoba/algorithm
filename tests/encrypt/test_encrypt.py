@@ -1,4 +1,4 @@
-# from challenges.challenge_encrypt_message import encrypt_message
+from challenges.challenge_encrypt_message import encrypt_message
 
 def encrypted_message(key, message):
     if not isinstance(key, int) or not isinstance(message, str):
