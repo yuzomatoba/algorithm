@@ -5,14 +5,14 @@ import pytest
 def test_encrypt_message():
     message = 'butterfly'
 
-    with pytest.raises(TypeError, match='inválido o tipo de key'):
+    with pytest.raises(TypeError, match='tipo inválido para key'):
         encrypt_message(message, None)
 
-    with pytest.raises(TypeError, match='inválido o tipo de message'):
+    with pytest.raises(TypeError, match='tipo inválido para message'):
         encrypt_message(None, 0)
 
-    assert encrypt_message(message, 0) == 'flybutter'
+    assert encrypt_message(message, 0) == 'ylfrettub'
 
-    assert encrypt_message(message, 1) == 'f_ylbtture'
+    assert encrypt_message(message, 1) == 'b_ylfrettu'
 
-    assert encrypt_message(message, 2) == 'btterul_yf'
+    assert encrypt_message(message, 2) == 'ylfrett_ub'
