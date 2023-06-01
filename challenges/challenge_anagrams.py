@@ -11,7 +11,7 @@ def quick_sort(word):
 
 def is_anagram(first_string, second_string):
     first_sorted = quick_sort(first_string.lower())
-    second_sorted = quick_sort(second_string.lower())    
+    second_sorted = quick_sort(second_string.lower())
     if first_string == '' or second_sorted == '':
         return (first_sorted, second_sorted, False)
     return (first_sorted, second_sorted, first_sorted == second_sorted)
