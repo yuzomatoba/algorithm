@@ -8,4 +8,4 @@ def study_schedule(permanence_period, target_time):
             return None
         if starting_class <= target_time <= ending_class:
             students_watching_class += 1
-            return students_watching_class
+    return students_watching_class
