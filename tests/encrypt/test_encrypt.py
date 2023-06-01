@@ -3,11 +3,11 @@
 def encrypted_message(key, message):
     if not isinstance(key, int) or not isinstance(message, str):
         raise TypeError \
-            ('key deve ser do tipo int e message deve ser do tipo str')
-    
+        ('key deve ser do tipo int e message deve ser do tipo str')
+
     if key < 0 or key >= len(message):
         return message[::-1]
-    
+
     inverted_words = [message[:key], message[key:]]
     if key % 2 == 0:
         inverted_words.reverse()
@@ -38,5 +38,3 @@ def test_encrypt_message():
     assert encrypted_message(4, 'Friend') == 'dn_eirF'
 
     print('Testes realizados com sucesso')
-
-
