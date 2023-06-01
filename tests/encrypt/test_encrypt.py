@@ -2,7 +2,8 @@
 
 def encrypted_message(key, message):
     if not isinstance(key, int) or not isinstance(message, str):
-        raise TypeError('key deve ser do tipo int e message deve ser do tipo str')
+        raise TypeError \
+            ('key deve ser do tipo int e message deve ser do tipo str')
     
     if key < 0 or key >= len(message):
         return message[::-1]
@@ -15,6 +16,7 @@ def encrypted_message(key, message):
     encrypted_message = '_'.join(encrypted_inverted_words)
 
     return encrypted_message
+
 
 def test_encrypt_message():
     # Testando key e message incorretos:
