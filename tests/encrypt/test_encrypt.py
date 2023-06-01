@@ -2,8 +2,7 @@
 
 def encrypted_message(key, message):
     if not isinstance(key, int) or not isinstance(message, str):
-        raise TypeError \
-        ('key deve ser do tipo int e message deve ser do tipo str')
+        raise TypeError('key deve ser int e message deve ser do str')
 
     if key < 0 or key >= len(message):
         return message[::-1]
