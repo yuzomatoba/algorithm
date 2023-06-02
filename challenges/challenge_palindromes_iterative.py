@@ -6,4 +6,3 @@ def is_palindrome_iterative(word):
         return True
     if word != inverted_word:
         return False
-   
