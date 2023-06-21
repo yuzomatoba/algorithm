@@ -1,5 +1,5 @@
-# ![image](https://github.com/yuzomatoba/algorithm/assets/108953241/47cf5447-01c0-4c59-bce9-3e032560a256)
-Algorithm First Experience Project![image](https://github.com/yuzomatoba/algorithm/assets/108953241/a38358a3-ddb2-45fa-83d3-9e0442440ef7)
+# ![image alt="Algorithm First Project" width="20" height="20"](https://github.com/yuzomatoba/algorithm/assets/108953241/47cf5447-01c0-4c59-bce9-3e032560a256)
+Algorithm First Experience Project![image alt="Algorithm First Project" width="20" height="20"](https://github.com/yuzomatoba/algorithm/assets/108953241/a38358a3-ddb2-45fa-83d3-9e0442440ef7)
 
 
 
