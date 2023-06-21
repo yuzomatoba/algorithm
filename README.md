@@ -29,3 +29,5 @@ Installing the dependencies:
 ## Python Version:
 
 The Python version used in this project was 3.10.6.
+
+You can use a specific version by using the command `pyenv local 3.x.y` (directory version) or `pyenv global 3.x.y` (global version).
