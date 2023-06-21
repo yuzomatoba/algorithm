@@ -9,3 +9,12 @@ The project aimed to:
 
 ## Programming Language:
 - Python
+
+
+## Installation
+
+🤖 Required commands:
+
+Creating the virtual environment for the project
+
+* `python3 -m venv .venv && source .venv/bin/activate`
