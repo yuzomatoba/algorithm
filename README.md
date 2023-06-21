@@ -15,6 +15,10 @@ The project aimed to:
 
 🤖 Required commands:
 
-Creating the virtual environment for the project
+Creating a virtual environment for the project:
 
 * `python3 -m venv .venv && source .venv/bin/activate`
+
+Installing the dependencies:
+
+* `python3 -m pip install -r dev-requirements.txt`
