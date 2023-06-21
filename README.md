@@ -31,3 +31,6 @@ Installing the dependencies:
 The Python version used in this project was 3.10.6.
 
 You can use a specific version by using the command `pyenv local 3.x.y` (directory version) or `pyenv global 3.x.y` (global version).
+
+❗️ Note: 
+The dev-requirements.txt file contains all the dependencies that have been used in the project, acting as a package.json file in a Node.js project.. ❗️
