@@ -15,7 +15,7 @@ The project aimed to:
 
 ## Installation
 
-🤖 Required commands:
+🤖 Required commands (before starting the project):
 
 Creating a virtual environment for the project:
 
