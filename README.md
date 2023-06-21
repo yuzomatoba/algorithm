@@ -26,6 +26,8 @@ Installing the dependencies:
 * `python3 -m pip install -r dev-requirements.txt`
 
 
+
+
 ❗️ Note: 
 The dev-requirements.txt file contains all the dependencies that have been used in the project, acting as a package.json file in a Node.js project. ❗️
 
