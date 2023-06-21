@@ -26,4 +26,6 @@ Installing the dependencies:
 * `python3 -m pip install -r dev-requirements.txt`
 
 
-## Python Version: 3.10.6
+## Python Version:
+
+The Python version used in this project is 3.10.6.
