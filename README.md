@@ -7,3 +7,5 @@ The project aimed to:
 - Apply recursion and iteration
 - Perform testing
 
+## Programming Language:
+- Python
