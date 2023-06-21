@@ -24,3 +24,6 @@ Creating a virtual environment for the project:
 Installing the dependencies:
 
 * `python3 -m pip install -r dev-requirements.txt`
+
+
+## Python Version: 3.10.6
