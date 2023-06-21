@@ -28,4 +28,4 @@ Installing the dependencies:
 
 ## Python Version:
 
-The Python version used in this project is 3.10.6.
+The Python version used in this project was 3.10.6.
